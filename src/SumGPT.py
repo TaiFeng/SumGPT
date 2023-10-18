@@ -19,9 +19,9 @@ result_handler = st.container()
 
 with app_header:
     st.title("📝 SumGPT")
-    st.markdown("##### Summarize your text with OpenAI's GPT-3.5 / GPT-4 API")
-    st.markdown("##### [GitHub repo](https://github.com/sean1832/SumGPT)")
-    st.warning("🚧️ This app is still in beta. Please [report any bugs](https://github.com/sean1832/SumGPT/issues) to the GitHub repo.")
+    st.markdown("##### Summarize your text with any LLM that offers an OpenAI-style API (i.e., LM Studio)")
+    st.markdown("##### [GitHub repo](https://github.com/TaiFeng/SumGPT)")
+    st.warning("🚧️ This app is still in beta. Please [report any bugs](https://github.com/TaiFeng/SumGPT/issues) to the GitHub repo.")
 
 sidebar()
 
